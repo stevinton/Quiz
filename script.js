@@ -2,6 +2,8 @@
 
 const answer = ['c) Hong Kong', 'b) Rome', 'a) Spanish', 'b) Rockstar Games', 'd) 1964']
 
+let score = document.querySelector(".scoreSpan").textContent;
+
 var option = function(ques, opt){
     let op = document.querySelector(`label[for="${ques}-option-${opt}"]`);
     verifyOption(op.textContent, op);
@@ -21,4 +23,8 @@ const verified = function(op){
 
 const notVerified = function(op){
     op.classList.toggle("notVerified");
+}
+
+const scoreUpdate = function(){
+    
 }
