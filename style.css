@@ -1,0 +1,50 @@
+body{
+    background-image: url("cloud.jpg");
+    display: block;
+    align-items: center;
+}
+
+h1{
+    position: relative;
+    text-align: center;
+    color: #ff811b;
+}
+
+.checked{
+    background-color: orange;
+}
+
+.container{
+    display: flexbox;
+    flex-direction: column;
+    margin: 20px;
+    color: #2b124c;
+}
+
+.container div{
+    background-color: white;
+    width: 500px;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.container p{
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+
+.container .options{
+    position: relative;
+    left: 40px;
+    margin: 10px;
+    width: 400px;
+    top: 10px;
+}
+
+.container .options input, label{
+    margin: 5px;
+    position: relative;
+    left: 100px;
+}
